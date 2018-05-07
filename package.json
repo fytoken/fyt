@@ -1,0 +1,32 @@
+{
+  "name": "posterity",
+  "version": "0.0.1",
+  "description": "Allow someone to send a message on the ethereum blockchain for posterity",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "./node_modules/.bin/truffle test",
+    "lint": "./node_modules/.bin/solium -d contracts --fix",
+    "coverage": "./node_modules/.bin/solidity-coverage",
+    "testrpc": "./node_modules/.bin/ganache-cli --accounts 15",
+    "compile": "./node_modules/.bin/truffle compile",
+    "migrate": "./node_modules/.bin/truffle migrate"
+  },
+  "author": "Beerappa",
+  "license": "MIT",
+  "devDependencies": {
+    "ganache-cli": "^6.1.0",
+    "solidity-coverage": "^0.4.11",
+    "solium": "^1.1.5",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "openzeppelin-solidity": "^1.9.0",
+    "solc": "^0.4.23",
+    "truffle": "^4.1.7",
+    "truffle-hdwallet-provider": "0.0.5",
+    "web3": "1.0.0-beta.29"
+  }
+}

@@ -1,0 +1,6 @@
+/build/
+/coverageEnv/
+*.iml
+/.idea/
+/node_modules/
+/coverage/
